@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style type="text/css" media="all">
+             a:link{color: #000;}
+        a:active {color: #000;}
+        a:visited{color: black;}
+        a:hover {color: #017bf5;}
+            body{
+                background-image:url(backgroundd.jpg );
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                height: 100%;
+            }
+
+        </style>
 <title>
     Bike Revolution
 </title>
 </head>
-<body background="20439058.jpg" link="#000" alink="#017bf5" vlink="#000">
+<body>
     <h1 style="text-align: center;color:rgb(0, 0, 0);">
         <font face = "Arial" size = "6">
             BIKE REVOLUTION
@@ -35,7 +50,7 @@
     </font>
 </h1>
 </div>
-<p> 
+<p style="margin-right: 10px;"> 
     <font face="arial" size="5">
     My name is Nathaniel B. Lagat an aspiring student of Isabela State<br>
     University-Ilagan Campus.Currently Studying The course Bachelor of<br>
@@ -44,14 +59,14 @@
     cycling and what it has to offer.<br>
 </font>
 <h3 align="right">
-<a href= "mailto:abc@example.com?subject = Feedback&body = Message">Contact US!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p></h3>
+<a onclick=ContactUS() href= "mailto:abc@example.com?subject = Feedback&body = Message">Contact US!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></p></h3>
 </p>
-<div>
-    <a href=""><i class="fab fa-facebook-f"></i></a>
-    <a href=""><i class="fab fa-twitter"></i></a>
-    <a href=""><i class="fab fa-instagram"></i></a>
-</div>
-    </body>
+<script>
+    function ContactUS(){
+alert("Thank You for Contacting US!");
+    }
+</script>
+</body>
 
 
 
@@ -59,4 +74,4 @@
 
 
 
-</html>/
+</html>
